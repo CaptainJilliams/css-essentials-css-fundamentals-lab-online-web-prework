@@ -8,33 +8,35 @@ h1{
   text-align: center;
 }
 
-img.displayed{
-  width: 900px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+#featured-property{
+  text-align: center;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+#featured-property p {
+  text-align: center;
+  max-width: 800px;
 }
 
 nav {
   text-align: center;
-  word-spacing: 10px;
 }
 
-.link-color {
+.link-color{
+  padding: 10px;
   background-color: gray;
 }
 
-figcaption {
-  text-align: center;
-  font-size: 12px;
-}
-
-#featured-property{
-  text-align: center;
-  width: 800px;
-}
-
-div#details{
+#details {
   display: block;
+}
+
+#details div {
+  background-color: red;
   float: left;
+  text-align: center;
+  width: 25%;
 }
